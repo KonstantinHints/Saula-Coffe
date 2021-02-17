@@ -1,0 +1,52 @@
+body {
+	background-color: #F0FFFF
+}
+.grid {
+	overflow: auto;
+}
+.grid .item {
+	padding: 0 15px;
+	box-sizing: border-box;
+	float: left;
+	width: 33%;
+	margin-bottom: 30px;
+}
+.grid .item .card-body .btn {
+	background-color: #f7b009;
+	color: #000;
+}	
+.card-img-top {
+	padding: 0 15px;
+	box-sizing: border-box;
+	width: 50%;
+	}
+.leftimg {
+	float:left; /* Выравнивание по левому краю */
+	margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+}
+.rightimg  {
+    float: right; /* Выравнивание по правому краю  */ 
+	margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+}
+.banner {
+	position: fixed;
+	top: 200px;
+	right: 0;
+	transform: translateX(350px);
+	background-color: #f7b009;
+	padding: 25px;
+	border-radius: 3px;
+	width: 400px;
+	transition: all 0.3s ease;
+}
+.banner:hover {
+	transform: none;
+}
+.banner .banner-title {
+	font-size: 18px;
+	color: #000;
+}
+.banner .banner-text {
+	margin-top: 10px;
+	color: #000;
+	line-height: 170%;
